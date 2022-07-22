@@ -27,6 +27,9 @@ const routes: Routes = [
         path: 'editar/:id', component: AgregarComponent
       },
       {
+        path: 'agregar', component: AgregarComponent
+      },
+      {
         path: ':id', component: HeroeComponent
       },
       {
